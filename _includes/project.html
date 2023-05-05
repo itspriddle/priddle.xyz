@@ -1,0 +1,29 @@
+<p>{{ include.intro | markdownify }}</p>
+
+{% for project in include.collection reversed %}
+  {%- assign plain_excerpt = project.excerpt | strip_html | normalize_whitespace -%}
+  {%- assign plain_content = project.content | strip_html | normalize_whitespace -%}
+  <hr class="stars">
+
+  <div class="project">
+    <h2>
+      {% if plain_excerpt == plain_content %}
+        {{ project.title }}
+      {% else %}
+        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      {% endif %}
+    </h2>
+
+    {% if project.company %}
+      <p>{{ project.company }} ({{ project.period }})</p>
+    {% endif %}
+
+    {{ project.excerpt }}
+
+    <p>Tags: {{ project.tags | sort | join: ", " }}</p>
+
+    {% if project.github %}
+      <p><a href="{{ project.github }}">View on GitHub &rarr;</a></p>
+    {% endif %}
+  </div>
+{% endfor %}

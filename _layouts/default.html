@@ -1,0 +1,76 @@
+{%- assign asset_hash = site.time | date: "%s" -%}
+{%- if page.title -%}
+{%- assign page_title = page.title | append: " --- " | append: site.title | smartify -%}
+{%- else -%}
+{%- assign page_title = site.title | smartify -%}
+{%- endif -%}
+{%- assign page_url = page.url | remove_first: "index.html" | absolute_url -%}
+{%- assign current_page = page.url | remove_first: "index.html" | relative_url -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | normalize_whitespace | truncate: 200 }}{% else %}{{ site.description }}{% endif %}">
+
+    <link href="https://github.com/itspriddle" rel="me">
+    <link rel="author" type="text/plain" href="{{ "/humans.txt" | absolute_url }}">
+    <link rel="canonical" href="{{ page_url }}">
+    <meta property="og:url" content="{{ page_url }}" />
+    <meta property="og:site_name" content="{{ site.title | smartify }}" />
+
+    <link rel="stylesheet" href="{{ "/stylesheets/main.css?" | append: asset_hash }}">
+
+    <title>{{ page_title }}</title>
+
+    <meta property="og:title" content="{{ page_title }}" />
+    <meta name="author" content="{{ site.author.name }}" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:type" content="website" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="wrapper">
+        <!--
+        <a class="site-title" href="/" title="{{ site.title }}">
+          {{ site.title }}
+        </a>
+        -->
+
+        <nav class="site-nav" style="text-transform: lowercase">
+          <a class="page-link" href="/" title="{{ site.title }}">{{ site.title }}</a> /
+
+          {% if current_page == "/work/" %}
+            <u>Work</u>
+          {% else %}
+            <a class="page-link" href="{{ "/work/" | relative_url }}">Work</a>
+          {% endif %}
+          /
+          {% if current_page == "/open-source/" %}
+            <u>OSS</u>
+          {% else %}
+            <a class="page-link" href="{{ "/open-source/" | relative_url }}">OSS</a>
+          {% endif %}
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        <div class="footer-col-wrapper">
+          <div class="footer-col">
+            <a href="{{ site.url }}" title="{{ site.title }}">{{ site.title }}</a> by {{ site.author.name }}
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

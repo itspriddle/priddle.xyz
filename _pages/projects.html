@@ -1,0 +1,14 @@
+---
+layout: page
+title: My Open Source Projects
+permalink: /open-source/
+intro: |
+  I love open source software --- it lets me put food on the
+  table. I give back whenever I can.
+
+  Check out all of my projects at
+  [github.com/itspriddle](https://github.com/itspriddle).
+---
+
+{% assign collection = site.projects | where_exp: "item", "item.hidden != true" | where: "project_type", "oss" %}
+{% include project.html title=page.title intro=page.intro collection=collection %}

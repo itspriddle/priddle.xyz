@@ -1,10 +1,64 @@
-# Sass setup
-sass:
-  sass_dir: stylesheets
-  style:    compressed
+# Site settings
+title: priddle.xyz
+description: Josh Priddle
+
+author:
+  name: Josh Priddle
+  email: jpriddle@me.com
+  linkedin: itspriddle
+  github: itspriddle
+  location: NY, USA
+  blog: https://josh.fail
+
+# Plugin settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+timezone: 'America/New_York'
 
 # Files to exclude
 exclude:
-  - bin
+  - .tags
+  - CNAME
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - bin
+  - vendor
+
+include:
+  - _pages
+
+# Sass setup
+sass:
+  sass_dir: stylesheets
+  style: compressed
+
+# Gems
+plugins:
+  - jekyll-sitemap
+
+# Collections
+collections:
+  projects:
+    output: true
+
+# Default values
+defaults:
+  -
+    scope:
+      path: "_projects/*"
+      type: "projects"
+    values:
+      layout: "page"
+      permalink: /work/:name/
+  -
+    scope:
+      path: "_projects/oss/*"
+      type: "projects"
+    values:
+      layout: "page"
+      permalink: /open-source/:name/
