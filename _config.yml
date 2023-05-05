@@ -61,4 +61,4 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-      permalink: /open-source/:name/
+      permalink: /oss/:name/
