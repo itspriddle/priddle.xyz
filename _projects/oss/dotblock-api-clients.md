@@ -15,10 +15,9 @@ tags:
 project_type: oss
 ---
 
-As part of my work on DotBlock Mobile, I created API clients in
-[Bash][DotBlock API Bash], [PHP][DotBlock API PHP], and [Ruby][DotBlock API
-Ruby] for customers to access the DotBlock API.
+As part of my work on DotBlock Mobile, I created API clients in [Bash][],
+[PHP][], and [Ruby][] for customers to access the DotBlock API.
 
-[DotBlock API Bash]: https://github.com/dotblock/dotblock-api-bash
-[DotBlock API PHP]: https://github.com/dotblock/dotblock-api-php
-[DotBlock API Ruby]: https://github.com/dotblock/dotblock-api-ruby
+[Bash]: https://github.com/dotblock/dotblock-api-bash
+[PHP]: https://github.com/dotblock/dotblock-api-php
+[Ruby]: https://github.com/dotblock/dotblock-api-ruby

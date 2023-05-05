@@ -13,11 +13,10 @@ tags:
 project_type: oss
 ---
 
-Vim wrapper for [ShellCheck][], a static analysis tool for shell scripts.
-
-It adds adds `:ShellCheck` and `:LShellCheck` commands to run ShellCheck on the
+Vim wrapper for [ShellCheck][], a static analysis tool for shell scripts. It
+adds adds `:ShellCheck` and `:LShellCheck` commands to run ShellCheck on the
 current buffer (or custom range/visual selection). Errors are sent to the
-quickfix/location list window, and in error windows, `gb` opens the GitHub wiki
-page for the error in a browser.
+quickfix/location list window, and in error windows, `gb` opens the GitHub
+wiki page for the error in a browser.
 
 [ShellCheck]: https://github.com/koalaman/shellcheck
