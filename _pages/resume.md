@@ -66,7 +66,7 @@ administration and can oversee a project from its inception to deployment. I
 enjoy solving challenging problems and helping other developers through
 mentoring and Open Source Software contributions.
 
-<hr class="stars">
+---
 
 ## Work Experience
 
@@ -77,7 +77,7 @@ Feb 2020 - Present
 Lead the software development team responsible for maintaining the A2 client
 portal and billing system and internal staff web applications.
 
-<hr class="stars">
+---
 
 ### Senior Software Developer --- A2 Hosting, Inc (Remote)
 
@@ -88,7 +88,7 @@ implement new features and security improvements on the customer billing
 system and front-end marketing site. Promoted to Director of Software
 Development in Feb 2020.
 
-<hr class="stars">
+---
 
 ### Senior Developer --- Envato Pty Ltd. (Remote)
 
@@ -101,7 +101,7 @@ updates, responding to on-call issues, and general support. Previously worked
 with the Hosted team maintaining the Rails billing system acquired from
 Pressed in 2017.
 
-<hr class="stars">
+---
 
 ### Senior Software Engineer --- Pressed Platform, Inc (Remote)
 
@@ -115,7 +115,7 @@ hosting platform and WordPress. Worked closely with CTO and senior software
 engineers to help review and interview candidates for employment. Frequently
 contributed to open source projects used or created by Pressed engineers.
 
-<hr class="stars">
+---
 
 ### Software Engineer --- World Wide Web Hosting, LLC (Remote)
 
@@ -131,7 +131,7 @@ Was the project lead for our Website.me product and oversaw its initial
 development and deployment. Frequently contributed to and helped manage our
 open source projects on GitHub.
 
-<hr class="stars">
+---
 
 ### Software Engineer --- HostRocket.com, Inc (Clifton Park, NY)
 
@@ -143,7 +143,7 @@ updates for the ViaTalk customer/staff control panel; the web application
 powering Ennouncement.com; the external order form used for DotBlock; and
 DotBlock's v1 iPhone application.
 
-<hr class="stars">
+---
 
 ### VoIP Engineer --- ViaTalk, LLC (Clifton Park, NY)
 
@@ -156,7 +156,7 @@ hundreds of daily support calls for ViaTalk and its sister company HostRocket.
 Was responsible for bringing up new servers and maintaining health of the VoIP
 network, including responding to emergencies as part of the on-call team.
 
-<hr class="stars">
+---
 
 ## Skills
 

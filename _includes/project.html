@@ -3,7 +3,7 @@
 {% for project in include.collection reversed %}
   {%- assign plain_excerpt = project.excerpt | strip_html | normalize_whitespace -%}
   {%- assign plain_content = project.content | strip_html | normalize_whitespace -%}
-  <hr class="stars">
+  <hr>
 
   <div class="project">
     <h2>
