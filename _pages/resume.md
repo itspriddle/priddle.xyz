@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Josh Priddle --- Resume
+title: Josh Priddle
 permalink: /resume/
 skills:
 - API Integration
