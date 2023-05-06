@@ -9,7 +9,7 @@ tags:
   - Circle CI
   - managed wordpress
   - PHP
-  - Rails 5
+  - Rails
   - Ruby
   - RubyGems
   - Sidekiq

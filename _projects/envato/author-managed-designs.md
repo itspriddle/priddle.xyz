@@ -6,7 +6,7 @@ date:    2018-03-01
 tags:
   - Automation
   - PHP
-  - Rails 5
+  - Rails
   - Ruby
   - Sidekiq
   - WordPress

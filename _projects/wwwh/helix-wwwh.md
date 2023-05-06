@@ -11,8 +11,7 @@ tags:
   - Linux
   - PostgreSQL
   - Rails Engines
-  - Rails 3
-  - Rails 4
+  - Rails
   - Ruby
   - RubyGems
   - SCSS

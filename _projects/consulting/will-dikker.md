@@ -9,7 +9,7 @@ tags:
   - Consulting
   - Design
   - Marketplace
-  - Rails 2
+  - Rails
   - Ruby
   - RubyGems
   - Startup

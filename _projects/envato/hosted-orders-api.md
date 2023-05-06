@@ -9,7 +9,7 @@ tags:
   - Billing
   - Javascript
   - Managed WordPress
-  - Rails 5
+  - Rails
   - React
   - Ruby
   - Sidekiq

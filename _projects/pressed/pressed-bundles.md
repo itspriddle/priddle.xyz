@@ -7,7 +7,7 @@ tags:
   - Automation
   - Capybara
   - PHP
-  - Rails 5
+  - Rails
   - Ruby
   - Sidekiq
   - WordPress

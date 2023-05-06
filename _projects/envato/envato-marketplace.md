@@ -14,7 +14,7 @@ tags:
   - Continuous Integration
   - Delayed Job
   - Javascript
-  - Rails 5
+  - Rails
   - React
   - Ruby
   - RubyGems

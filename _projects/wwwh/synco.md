@@ -9,7 +9,7 @@ tags:
   - MySQL
   - Ruby
   - RubyGems
-  - Rails 2
+  - Rails
 project_type: work
 ---
 

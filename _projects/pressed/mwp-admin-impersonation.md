@@ -8,7 +8,7 @@ tags:
   - Automation
   - Bash
   - PHP
-  - Rails 5
+  - Rails
   - Ruby
   - Sidekiq
   - Sinatra

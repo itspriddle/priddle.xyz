@@ -9,8 +9,7 @@ tags:
   - CSS
   - Javascript
   - jQuery
-  - Rails 4
-  - Rails 5
+  - Rails
   - Rspec
   - Ruby
   - RubyGems

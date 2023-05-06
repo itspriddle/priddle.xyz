@@ -9,7 +9,7 @@ tags:
   - jQuery
   - MySQL
   - PHP
-  - Rails 3.0
+  - Rails
   - Ruby
   - WHMCS
 project_type: work

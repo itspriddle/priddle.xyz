@@ -12,7 +12,7 @@ tags:
   - Linux
   - MySQL
   - Ruby
-  - Rails 2
+  - Rails
   - VoIP
 project_type: work
 ---

@@ -10,8 +10,7 @@ tags:
   - jQuery
   - Linux
   - PostgreSQL
-  - Rails 3
-  - Rails 4
+  - Rails
   - Ruby
   - RubyGems
   - SCSS

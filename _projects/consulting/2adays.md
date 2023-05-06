@@ -8,14 +8,14 @@ tags:
   - Automation
   - Billing
   - Consulting
-  - Rails 5
+  - Rails
   - Recurly
   - Ruby
   - Sidekiq
 project_type: work
 ---
 
-I developed the Rails application for 2aDays, a website that helps student
+I developed the Rails application for 2adays.com, a website that helps student
 athletes through the college recruiting process. My work involved replacing an
 existing coach and school search directory with a fully custom one. The Rails
 application is responsible for pulling information from a third party API for

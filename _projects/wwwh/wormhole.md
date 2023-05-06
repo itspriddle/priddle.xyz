@@ -7,7 +7,7 @@ tags:
   - MySQL
   - PHP
   - PostgreSQL
-  - Rails 4
+  - Rails
   - Rails Engines
   - Ruby
   - RubyGems

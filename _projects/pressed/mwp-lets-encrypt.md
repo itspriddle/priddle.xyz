@@ -6,7 +6,7 @@ date:    2016-04-01
 tags:
   - Automation
   - Let's Encrypt
-  - Rails 5
+  - Rails
   - Ruby
   - Sidekiq
   - WordPress
