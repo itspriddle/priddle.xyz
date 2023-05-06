@@ -1,7 +1,7 @@
 ---
 title:   Helix
 company: World Wide Web Hosting, LLC
-period:  Sep 2011 - Present
+period:  Sep 2011 - Jul 2017
 date:    2011-09-01
 tags:
   - AWS
@@ -16,10 +16,6 @@ tags:
   - RubyGems
   - SCSS
 project_type: work
-
-# TODO: Split helix into "Helix (WWWH)" and "Helix (Pressed)" to outline
-# differences at each company
-
 ---
 
 Helix is a custom built billing system that is used by staff and customers to
