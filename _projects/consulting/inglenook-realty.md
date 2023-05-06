@@ -7,6 +7,7 @@ tags:
   - CodeIgniter
   - Consulting
   - CSS
+  - Design
   - Javascript
   - jQuery
   - MySQL
