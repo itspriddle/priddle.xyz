@@ -2,6 +2,61 @@
 layout: page
 title: Josh Priddle --- Resume
 permalink: /resume/
+skills:
+- API Integration
+- AWS
+- awk
+- Apache
+- Asterisk
+- BDD
+- Bash Scripting
+- CSS
+- Capybara
+- CentOS
+- Chef
+- CoffeeScript
+- Command Line
+- Customer Service
+- Git
+- GitHub
+- GitHub Pages
+- JavaScript
+- Jekyll
+- Let's Encrypt
+- Linux
+- macOS
+- Meta-programming
+- MiniTest
+- MySQL
+- NGINX
+- PHP
+- PHPUnit
+- Payment Gateway Integration
+- PostgreSQL
+- RSpec
+- Rack
+- Rails Engines
+- Ruby
+- Ruby on Rails
+- RubyGem Development
+- sed
+- SCSS (Sass)
+- Scrum
+- Sidekiq
+- Sinatra
+- Technical Support
+- Troubleshooting
+- Twitter Bootstrap
+- Ubuntu
+- Unit Testing
+- Vagrant
+- Vim
+- Vim Plugin Development
+- VoIP
+- WP-CLI
+- Web Hosting
+- WordPress
+- WordPress Plugin Development
 ---
 
 I'm Josh --- a full stack software engineer with over 17 years of experience in
@@ -100,3 +155,9 @@ ViaTalk PBX from the ground up, an application responsible for handling
 hundreds of daily support calls for ViaTalk and its sister company HostRocket.
 Was responsible for bringing up new servers and maintaining health of the VoIP
 network, including responding to emergencies as part of the on-call team.
+
+<hr class="stars">
+
+## Skills
+
+{{ page.skills | join: ", " }}
