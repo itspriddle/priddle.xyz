@@ -1,4 +1,4 @@
-<p>{{ include.intro | markdownify }}</p>
+{{ include.intro | markdownify }}
 
 {% for project in include.collection reversed %}
   {%- assign plain_excerpt = project.excerpt | strip_html | normalize_whitespace -%}
