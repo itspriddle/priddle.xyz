@@ -5,8 +5,6 @@ date:   2012-03-01
 github: https://github.com/itspriddle/gem-create
 tags:
   - Git
-  - GitHub
-  - Open Source
   - MiniTest
   - Ruby
   - RubyGems

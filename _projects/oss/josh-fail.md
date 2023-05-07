@@ -6,10 +6,8 @@ github: https://github.com/itspriddle/josh.fail
 tags:
   - Bash
   - Git
-  - GitHub
   - GitHub pages
   - Jekyll
-  - Open Source
   - Ruby
 project_type: oss
 ---

@@ -6,9 +6,7 @@ github: https://github.com/itspriddle/vim-marked
 tags:
   - AppleScript
   - Git
-  - GitHub
   - Markdown
-  - Open Source
   - Vim Plugin
 project_type: oss
 ---

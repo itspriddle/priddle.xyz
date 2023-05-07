@@ -8,7 +8,6 @@ tags:
   - AppleScript
   - Ruby
   - Bash
-  - Open Source
 project_type: oss
 ---
 

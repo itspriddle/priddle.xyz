@@ -7,7 +7,6 @@ tags:
   - TextMate
   - Rsync
   - SSH
-  - Open Source
 project_type: oss
 ---
 

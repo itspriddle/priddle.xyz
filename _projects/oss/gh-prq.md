@@ -6,9 +6,7 @@ github: https://github.com/itspriddle/gh-prq
 tags:
   - Bash
   - Git
-  - GitHub
   - CLI
-  - Open Source
 project_type: oss
 ---
 

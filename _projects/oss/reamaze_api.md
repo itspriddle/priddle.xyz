@@ -6,9 +6,7 @@ github: https://github.com/itspriddle/reamaze_api
 tags:
   - API
   - Git
-  - GitHub
   - MiniTest
-  - Open Source
   - Reamaze
   - Ruby
   - RubyGems

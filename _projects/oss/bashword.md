@@ -6,13 +6,11 @@ github: https://github.com/itspriddle/bashword
 tags:
   - Bash
   - Passwords
-  - GitHub
   - Linux
   - macOS
   - Windows
-  - Open Source
 project_type: oss
 ---
 
 I wanted a password generator that I could quickly drop on any system and
-created Bashword, a pure bash password/passphrase/PIN generator.
+created Bashword, a pure Bash password/passphrase/PIN generator.

@@ -7,8 +7,6 @@ tags:
   - API
   - Apple Push Notification Service
   - Git
-  - GitHub
-  - Open Source
   - Rspec
   - Ruby
   - RubyGems

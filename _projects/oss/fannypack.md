@@ -7,8 +7,6 @@ tags:
   - API
   - Fantastico
   - Git
-  - GitHub
-  - Open Source
   - Rspec
   - Ruby
   - RubyGems

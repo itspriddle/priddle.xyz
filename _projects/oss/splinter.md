@@ -7,8 +7,6 @@ tags:
   - API
   - Capybara
   - Git
-  - GitHub
-  - Open Source
   - Rspec
   - Ruby
   - RubyGems

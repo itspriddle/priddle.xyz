@@ -6,8 +6,6 @@ github: https://github.com/itspriddle/vim-stripper
 tags:
   - Bash
   - Git
-  - GitHub
-  - Open Source
   - Vim Plugin
 project_type: oss
 ---

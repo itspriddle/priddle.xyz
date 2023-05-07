@@ -5,8 +5,6 @@ date:   2011-12-01
 github: https://github.com/itspriddle/rainman
 tags:
   - Git
-  - GitHub
-  - Open Source
   - Rspec
   - Ruby
   - RubyGems

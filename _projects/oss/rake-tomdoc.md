@@ -6,9 +6,7 @@ github: https://github.com/itspriddle/rake-tomdoc
 tags:
   - Documentation
   - Git
-  - GitHub
   - GitHub Pages
-  - Open Source
   - Ruby
   - RubyGems
   - Tomdoc

@@ -8,12 +8,11 @@ tags:
   - Automation
   - Billing
   - Javascript
-  - Managed WordPress
   - Rails
   - React
   - Ruby
   - Sidekiq
-  - Web Hosting
+  - WordPress
 project_type: work
 ---
 

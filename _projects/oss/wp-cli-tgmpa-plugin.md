@@ -5,8 +5,6 @@ date:   2016-04-01
 github: https://github.com/itspriddle/wp-cli-tgmpa-plugin
 tags:
   - Git
-  - GitHub
-  - Open Source
   - PHP
   - TGMPA
   - Wordpress

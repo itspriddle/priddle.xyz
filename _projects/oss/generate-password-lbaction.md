@@ -5,7 +5,6 @@ date:   2018-03-01
 github: https://github.com/itspriddle/generate-password.lbaction
 tags:
   - LaunchBar
-  - Open Source
   - macOS
   - Ruby
   - Security

@@ -7,9 +7,7 @@ tags:
   - Appcelerator Titanium
   - CoffeeScript
   - Git
-  - GitHub
   - Javascript
-  - Open Source
   - Ruby
   - RubyGems
 project_type: oss

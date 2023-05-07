@@ -7,9 +7,7 @@ tags:
   - API
   - Bash
   - Git
-  - GitHub
   - CLI
-  - Open Source
 project_type: oss
 ---
 

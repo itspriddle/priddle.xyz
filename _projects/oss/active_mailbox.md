@@ -7,9 +7,7 @@ tags:
   - API
   - Asterisk
   - Git
-  - GitHub
   - Linux
-  - Open Source
   - Ruby
   - RubyGems
   - Test Unit

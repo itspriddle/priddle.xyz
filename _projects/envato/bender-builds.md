@@ -7,13 +7,11 @@ tags:
   - Automation
   - Capybara
   - Circle CI
-  - managed wordpress
   - PHP
   - Rails
   - Ruby
   - RubyGems
   - Sidekiq
-  - Web Hosting
   - WordPress
   - WP-CLI
 project_type: work

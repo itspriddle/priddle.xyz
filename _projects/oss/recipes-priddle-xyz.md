@@ -6,10 +6,8 @@ github: https://github.com/itspriddle/recipes.priddle.xyz
 tags:
   - Bash
   - Git
-  - GitHub
-  - GitHub pages
+  - GitHub Pages
   - Jekyll
-  - Open Source
   - Ruby
 project_type: oss
 ---

@@ -7,8 +7,6 @@ tags:
   - CodeIgniter
   - Email
   - Git
-  - GitHub
-  - Open Source
   - PHP
 project_type: oss
 ---

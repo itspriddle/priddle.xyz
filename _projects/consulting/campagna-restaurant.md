@@ -9,7 +9,6 @@ tags:
   - Consulting
   - Ruby
   - Statamic
-  - Web Hosting
 project_type: work
 ---
 

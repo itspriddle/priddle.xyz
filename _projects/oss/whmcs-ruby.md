@@ -6,8 +6,6 @@ github: https://github.com/dotblock/whmcs-ruby
 tags:
   - API
   - Git
-  - GitHub
-  - Open Source
   - Rspec
   - Ruby
   - RubyGems

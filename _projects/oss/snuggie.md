@@ -6,8 +6,6 @@ github: https://github.com/itspriddle/snuggie
 tags:
   - API
   - Git
-  - GitHub
-  - Open Source
   - Rspec
   - Ruby
   - RubyGems

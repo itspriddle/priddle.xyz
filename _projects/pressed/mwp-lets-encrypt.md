@@ -4,6 +4,7 @@ company: Pressed, LLC
 period:  Apr 2016 - Jul 2018
 date:    2016-04-01
 tags:
+  - API
   - Automation
   - Let's Encrypt
   - Rails

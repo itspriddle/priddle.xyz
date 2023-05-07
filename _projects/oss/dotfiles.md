@@ -6,9 +6,7 @@ github: https://github.com/itspriddle/dotfiles
 tags:
   - Bash
   - Git
-  - GitHub
   - Linux
-  - Open Source
   - macOS
   - PHP
   - Ruby

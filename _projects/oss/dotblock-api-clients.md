@@ -7,8 +7,6 @@ tags:
   - API
   - Bash
   - Git
-  - GitHub
-  - Open Source
   - PHP
   - Ruby
   - RubyGems

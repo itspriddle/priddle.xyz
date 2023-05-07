@@ -7,9 +7,7 @@ tags:
   - Bash
   - Things
   - CLI
-  - GitHub
   - macOS
-  - Open Source
 project_type: oss
 ---
 

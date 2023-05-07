@@ -6,16 +6,14 @@ github: https://github.com/itspriddle/trust_me
 tags:
   - API
   - Git
-  - GitHub
-  - Open Source
   - Rspec
   - Ruby
   - RubyGems
-  - Telesign
+  - TeleSign
 project_type: oss
 ---
 
-TrustMe is a RubyGem that interfaces with the [TeleSign][]. REST API. I
+TrustMe is a RubyGem that interfaces with the [TeleSign][] REST API. I
 created the initial implementation and maintain the open source project on
 GitHub.
 
