@@ -1,11 +1,24 @@
 {{ include.intro | markdownify }}
 
 {% for project in include.collection reversed %}
-  {%- assign plain_excerpt = project.excerpt | strip_html | normalize_whitespace -%}
-  {%- assign plain_content = project.content | strip_html | normalize_whitespace -%}
+{%- assign plain_excerpt = project.excerpt | strip_html | normalize_whitespace -%}
+{%- assign plain_content = project.content | strip_html | normalize_whitespace -%}
+{%- if project.path contains "_projects/consulting" -%}
+{%- assign company_id = "personal" -%}
+{%- else -%}
+{%- assign company_id = project.company | default: "personal" | slugify -%}
+{%- endif -%}
+{%- assign project_classes = "project " -%}
+{%- for tag in project.tags -%}
+{%- assign t = tag | slugify -%}
+{%- assign project_classes = project_classes | append: "project-type-" | append: t -%}
+{%- unless forloop.last -%}
+{%- assign project_classes = project_classes | append: " " -%}
+{%- endunless -%}
+{%- endfor -%}
   <hr>
 
-  <div class="project">
+  <div class="{{ project_classes }}" data-company="{{ company_id }}">
     <h2 id="{{ project.title | slugify }}">
       {% if plain_excerpt == plain_content %}
         {{ project.title }}
