@@ -138,23 +138,12 @@ open source projects on GitHub.
 Dec 2008 - May 2011
 
 Led development for several key projects for ViaTalk and DotBlock (both
-subsidiaries of HostRocket). Was responsible for maintenance and security
-updates for the ViaTalk customer/staff control panel; the web application
-powering Ennouncement.com; the external order form used for DotBlock; and
-DotBlock's v1 iPhone application.
-
----
-
-### VoIP Engineer --- ViaTalk, LLC (Clifton Park, NY)
-
-Nov 2006 - Dec 2008
-
-Implemented new features for the VoIP platform. Implemented several internal
-systems used by management to track support calls and tickets. Implemented the
-ViaTalk PBX from the ground up, an application responsible for handling
-hundreds of daily support calls for ViaTalk and its sister company HostRocket.
-Was responsible for bringing up new servers and maintaining health of the VoIP
-network, including responding to emergencies as part of the on-call team.
+subsidiaries of HostRocket). Implemented ViaTalk PBX, the web application
+responsible for handling hundreds of daily support calls for all HostRocket
+companies. Was responsible for maintenance and security updates for the
+ViaTalk customer/staff control panel; the web application powering
+Ennouncement.com; the external order form used for DotBlock; and DotBlock's v1
+iPhone application.
 
 ---
 
