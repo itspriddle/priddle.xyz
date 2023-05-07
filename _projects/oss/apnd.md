@@ -1,6 +1,6 @@
 ---
 title:  APND
-period: Sep 2010 - Sep 2011
+period: Sep 2010
 date:   2010-09-01
 github: https://github.com/itspriddle/apnd
 tags:

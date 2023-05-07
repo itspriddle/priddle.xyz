@@ -1,7 +1,7 @@
 ---
 title:   MWP Order Form
 company: Pressed, LLC
-period:  Oct 2015 - Jul 2018
+period:  Oct 2015
 date:    2015-10-01
 tags:
   - AWS

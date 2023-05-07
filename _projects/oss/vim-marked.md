@@ -1,6 +1,6 @@
 ---
 title:  vim-marked
-period: Feb 2012 - Present
+period: Feb 2012
 date:   2012-02-01
 github: https://github.com/itspriddle/vim-marked
 tags:

@@ -1,7 +1,7 @@
 ---
 title:   Website.me
 company: World Wide Web Hosting, LLC
-period:  Apr 2014 - Aug 2016
+period:  Apr 2014
 date:    2014-04-01
 tags:
   - AWS

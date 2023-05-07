@@ -1,6 +1,6 @@
 ---
 title:  generate-password.lbaction
-period: Mar 2018 - Present
+period: Mar 2018
 date:   2018-03-01
 github: https://github.com/itspriddle/generate-password.lbaction
 tags:

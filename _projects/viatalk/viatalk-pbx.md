@@ -1,7 +1,7 @@
 ---
 title:   ViaTalk PBX
 company: ViaTalk, LLC
-period:  Aug 2008 - May 2011
+period:  Aug 2008
 date:    2008-08-01
 tags:
   - Asterisk

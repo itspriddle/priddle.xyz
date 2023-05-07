@@ -1,6 +1,6 @@
 ---
 title:  TrustMe
-period: Nov 2014 - Present
+period: Nov 2014
 date:   2014-11-01
 github: https://github.com/itspriddle/trust_me
 tags:

@@ -1,6 +1,6 @@
 ---
 title:  ReamazeAPI
-period: Jun 2016 - Present
+period: Jun 2016
 date:   2016-06-01
 github: https://github.com/itspriddle/reamaze_api
 tags:

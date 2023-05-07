@@ -1,7 +1,7 @@
 ---
 title:   Partner Panel
 company: Pressed, LLC
-period:  Sep 2015 - Jul 2018
+period:  Sep 2015
 date:    2015-09-01
 tags:
   - AWS

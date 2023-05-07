@@ -1,7 +1,7 @@
 ---
 title:   Helix
 company: World Wide Web Hosting, LLC
-period:  Sep 2011 - Jul 2017
+period:  Sep 2011
 date:    2011-09-01
 tags:
   - AWS

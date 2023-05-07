@@ -1,7 +1,7 @@
 ---
 title:   iZabbix
 company: ViaTalk, LLC
-period:  Oct 2010 - May 2011
+period:  Oct 2010
 date:    2010-10-01
 tags:
   - Apple Push Notifications

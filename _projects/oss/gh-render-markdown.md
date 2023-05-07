@@ -1,6 +1,6 @@
 ---
 title:  gh-render-markdown
-period: Mar 2022 - Present
+period: Mar 2022
 date:   2022-03-16
 github: https://github.com/itspriddle/gh-render-markdown
 tags:

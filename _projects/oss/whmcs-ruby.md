@@ -1,6 +1,6 @@
 ---
 title:  whmcs-ruby
-period: Mar 2011 - May 2011
+period: Mar 2011
 date:   2011-03-01
 github: https://github.com/dotblock/whmcs-ruby
 tags:

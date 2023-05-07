@@ -1,6 +1,6 @@
 ---
 title:  gh-prq
-period: Mar 2023 - Present
+period: Mar 2023
 date:   2023-03-18
 github: https://github.com/itspriddle/gh-prq
 tags:

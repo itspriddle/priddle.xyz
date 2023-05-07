@@ -1,6 +1,6 @@
 ---
 title:  LaunchBar Actions
-period: May 2010 - Present
+period: May 2010
 date:   2010-05-02
 github: https://github.com/itspriddle/launchbar-actions
 tags:

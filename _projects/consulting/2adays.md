@@ -1,7 +1,7 @@
 ---
 title:   2adays.com
 company: 2aDays, LLC
-period:  Dec 2016 - Present
+period:  Dec 2016
 date:    2016-12-01
 tags:
   - API

@@ -1,7 +1,7 @@
 ---
 title:   Ennouncement
 company: ViaTalk, LLC
-period:  Apr 2010 - May 2011
+period:  Apr 2010
 date:    2010-04-01
 tags:
   - Asterisk

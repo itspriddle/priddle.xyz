@@ -1,7 +1,7 @@
 ---
 title:   MWP Let's Encrypt
 company: Pressed, LLC
-period:  Apr 2016 - Jul 2018
+period:  Apr 2016
 date:    2016-04-01
 tags:
   - API

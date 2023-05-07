@@ -1,6 +1,6 @@
 ---
 title:  ActiveMailbox
-period: Dec 2010 - May 2011
+period: Dec 2010
 date:   2010-12-01
 github: https://github.com/itspriddle/active_mailbox
 tags:

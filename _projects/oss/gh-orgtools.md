@@ -1,6 +1,6 @@
 ---
 title:  gh-orgtools
-period: Mar 2022 - Present
+period: Mar 2022
 date:   2022-03-15
 github: https://github.com/a2hosting/gh-orgtools
 tags:

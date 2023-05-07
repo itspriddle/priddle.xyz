@@ -1,7 +1,7 @@
 ---
 title:   Wormhole
 company: World Wide Web Hosting, LLC
-period:  Jan 2013 - Jul 2015
+period:  Jan 2013
 date:    2013-01-01
 tags:
   - MySQL

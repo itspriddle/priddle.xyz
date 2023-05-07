@@ -1,7 +1,7 @@
 ---
 title:   Synco
 company: World Wide Web Hosting, LLC
-period:  May 2011 - Jul 2015
+period:  May 2011
 date:    2011-05-01
 tags:
   - Javascript

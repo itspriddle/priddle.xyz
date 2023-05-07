@@ -1,7 +1,7 @@
 ---
 title:   MWP Admin Impersonation
 company: Pressed, LLC
-period:  Oct 2016 - Jul 2018
+period:  Oct 2016
 date:    2016-10-01
 tags:
   - API

@@ -1,7 +1,7 @@
 ---
 title:   MWP Lazy Upgrader
 company: Pressed, LLC
-period:  Dec 2016 - Jul 2018
+period:  Dec 2016
 date:    2016-12-19
 tags:
   - Automation

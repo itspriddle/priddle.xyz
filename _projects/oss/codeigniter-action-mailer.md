@@ -1,6 +1,6 @@
 ---
 title:  CodeIgniter ActionMailer
-period: Apr 2010 - May 2011
+period: Apr 2010
 date:   2010-04-10
 github: https://github.com/itspriddle/codeigniter-action-mailer
 tags:

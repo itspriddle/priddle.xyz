@@ -1,6 +1,6 @@
 ---
 title:  vim-stripper
-period: Jul 2011 - Present
+period: Jul 2011
 date:   2011-07-14
 github: https://github.com/itspriddle/vim-stripper
 tags:

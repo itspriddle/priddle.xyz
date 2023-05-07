@@ -1,6 +1,6 @@
 ---
 title:  vim-shellcheck
-period: Sep 2018 - Present
+period: Sep 2018
 date:   2018-09-01
 github: https://github.com/itspriddle/vim-shellcheck
 tags:

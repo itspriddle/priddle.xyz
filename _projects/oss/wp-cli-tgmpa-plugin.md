@@ -1,6 +1,6 @@
 ---
 title:  wp-cli-tgmpa-plugin
-period: Apr 2016 - Present
+period: Apr 2016
 date:   2016-04-01
 github: https://github.com/itspriddle/wp-cli-tgmpa-plugin
 tags:

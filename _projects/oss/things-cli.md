@@ -1,6 +1,6 @@
 ---
 title:  things-cli
-period: May 2021 - Present
+period: May 2021
 date:   2021-05-01
 github: https://github.com/itspriddle/things-cli
 tags:

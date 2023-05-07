@@ -1,6 +1,6 @@
 ---
 title:  josh.fail
-period: Oct 2009 - Present
+period: Oct 2009
 date:   2009-10-01
 github: https://github.com/itspriddle/josh.fail
 tags:

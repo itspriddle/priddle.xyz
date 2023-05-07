@@ -1,6 +1,6 @@
 ---
 title:  TextMate Rsync bundle
-period: Feb 2009 - Oct 2010
+period: Feb 2009
 date:   2009-02-11
 github: https://github.com/itspriddle/rsync-tmbundle
 tags:

@@ -1,7 +1,7 @@
 ---
 title:   Will Dikker
 company: Will Dikker, LLC
-period:  Jan 2009 - Apr 2009
+period:  Jan 2009
 date:    2009-01-01
 tags:
   - authorize.net

@@ -1,7 +1,7 @@
 ---
 title:   letscallsanta.com
 company: ViaTalk, LLC
-period:  Dec 2008 - May 2011
+period:  Dec 2008
 date:    2008-12-01
 tags:
   - Asterisk

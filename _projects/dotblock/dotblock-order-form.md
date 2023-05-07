@@ -1,7 +1,7 @@
 ---
 title:   DotBlock Order Form
 company: DotBlock.com, Inc
-period:  Aug 2010 - May 2011
+period:  Aug 2010
 date:    2010-08-01
 tags:
   - CSS

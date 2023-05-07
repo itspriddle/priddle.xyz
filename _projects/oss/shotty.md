@@ -1,6 +1,6 @@
 ---
 title:  shotty
-period: Feb 2017 - May 2023
+period: Feb 2017
 date:   2017-02-01
 github: https://github.com/itspriddle/shotty
 tags:

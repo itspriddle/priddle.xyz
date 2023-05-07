@@ -1,7 +1,7 @@
 ---
 title:   Pressed Bundles
 company: Pressed, LLC
-period:  Jul 2015 - Jul 2018
+period:  Jul 2015
 date:    2015-07-01
 tags:
   - Automation

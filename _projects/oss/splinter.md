@@ -1,6 +1,6 @@
 ---
 title:  Splinter
-period: Mar 2012 - Present
+period: Mar 2012
 date:   2012-03-01
 github: https://github.com/itspriddle/splinter
 tags:

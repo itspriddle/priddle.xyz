@@ -1,7 +1,7 @@
 ---
 title:   inglenookrealtyinc.com
 company: Inglenook Realty, Inc
-period:  May 2005 - May 2009
+period:  May 2005
 date:    2005-05-01
 tags:
   - CodeIgniter

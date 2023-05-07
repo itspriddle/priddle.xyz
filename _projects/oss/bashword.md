@@ -1,6 +1,6 @@
 ---
 title:  Bashword
-period: Aug 2021 - Present
+period: Aug 2021
 date:   2021-08-01
 github: https://github.com/itspriddle/bashword
 tags:

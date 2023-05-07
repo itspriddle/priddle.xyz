@@ -1,6 +1,6 @@
 ---
 title:  rake-tomdoc
-period: Jul 2013 - Present
+period: Jul 2013
 date:   2013-07-01
 github: https://github.com/itspriddle/rake-tomdoc
 tags:

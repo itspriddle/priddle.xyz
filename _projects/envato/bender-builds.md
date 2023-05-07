@@ -1,7 +1,7 @@
 ---
 title:   Bender Builds
 company: Envato Pty Ltd.
-period:  Sep 2017 - Jul 2018
+period:  Sep 2017
 date:    2017-09-01
 tags:
   - Automation

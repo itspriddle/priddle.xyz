@@ -1,6 +1,6 @@
 ---
 title:  dotfiles
-period: May 2010 - Present
+period: May 2010
 date:   2010-05-01
 github: https://github.com/itspriddle/dotfiles
 tags:

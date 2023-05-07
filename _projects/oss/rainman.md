@@ -1,6 +1,6 @@
 ---
 title:  Rainman
-period: Dec 2011 - Mar 2012
+period: Dec 2011
 date:   2011-12-01
 github: https://github.com/itspriddle/rainman
 tags:

@@ -1,6 +1,6 @@
 ---
 title:  TiFighter
-period: Feb 2011 - May 2011
+period: Feb 2011
 date:   2011-02-01
 github: https://github.com/itspriddle/ti-fighter
 tags:

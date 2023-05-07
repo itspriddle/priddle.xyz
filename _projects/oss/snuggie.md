@@ -1,6 +1,6 @@
 ---
 title:  Snuggie
-period: Jun 2011 - Jul 2015
+period: Jun 2011
 date:   2011-06-01
 github: https://github.com/itspriddle/snuggie
 tags:

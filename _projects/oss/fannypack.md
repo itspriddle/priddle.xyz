@@ -1,6 +1,6 @@
 ---
 title:  FannyPack
-period: May 2011 - Jul 2015
+period: May 2011
 date:   2011-05-01
 github: https://github.com/itspriddle/fanny_pack
 tags:

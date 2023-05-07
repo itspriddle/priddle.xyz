@@ -1,7 +1,7 @@
 ---
 title:   creativedancearts.org
 company: Creative Dance Arts, LLC
-period:  Sep 2005 - Oct 2016
+period:  Sep 2005
 date:    2005-09-01
 tags:
   - Consulting
