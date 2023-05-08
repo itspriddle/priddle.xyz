@@ -1,5 +1,5 @@
 ---
-title:   sos-bot
+title:   SOS Bot
 company: A2 Hosting, Inc
 period:  Jul 2022
 date:    2022-07-15
