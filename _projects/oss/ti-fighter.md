@@ -459,4 +459,4 @@ JavaScript will be available in `lib/ti-fighter.js`.
 
 ## License
 
-MIT License - see [`LICENSE`](https://github.com/itspriddle/ti-fighter/blob/master/LICENSE) in this repo.
+MIT License - see [`MIT-LICENSE`](https://github.com/itspriddle/ti-fighter/blob/master/MIT-LICENSE) in this repo.
