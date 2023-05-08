@@ -27,11 +27,11 @@
       {% endif %}
     </h2>
 
-    {% if project.company %}
+    {% if project.project_type == "work" and project.company %}
       <p>{{ project.company }} ({{ project.period }})</p>
     {% endif %}
 
-    {{ project.excerpt }}
+    {{ project.excerpt | markdownify }}
 
     <p>Tags: {{ project.tags | sort | join: ", " }}</p>
 
