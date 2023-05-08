@@ -17,7 +17,7 @@ excerpt: |
   source project on GitHub.
 ---
 
-![](http://i.imgur.com/trnno.jpg)
+![Splinter]({{ "/images/splinter/splinter.jpg" | relative_url }})
 
 Splinter is a Capybara Ninja. It provides some helpers to aid with filling in
 Rails forms.
