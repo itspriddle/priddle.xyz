@@ -28,7 +28,7 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
+:root[data-color-mode="dark"] {
   .site-title img {
     filter: invert(70%);
   }

@@ -7,7 +7,7 @@
 {%- assign page_url = page.url | remove_first: "index.html" | absolute_url -%}
 {%- assign current_page = page.url | remove_first: "index.html" | relative_url -%}
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" data-color-mode="light">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -67,10 +67,56 @@
       <div class="wrapper">
         <div class="footer-col-wrapper">
           <div class="footer-col">
-            <a href="{{ site.url }}" title="{{ site.title }}">{{ site.title }}</a> by {{ site.author.name }}
+            <a href="{{ site.url }}" title="{{ site.title }}">{{ site.title }}</a>
+            by <span class="color-mode-toggle">{{ site.author.name }}</span>
           </div>
         </div>
       </div>
     </footer>
+
+    <script>
+      const colorPref = window.matchMedia('(prefers-color-scheme: dark)');
+
+      colorPref.addEventListener("change", (e) => {
+        if (localStorage.getItem('color-mode')) {
+          return;
+        }
+
+        if (e.matches) {
+          document.documentElement.setAttribute('data-color-mode', 'dark')
+        } else {
+          document.documentElement.setAttribute('data-color-mode', 'light')
+        }
+      });
+
+      if (
+        localStorage.getItem('color-mode') === 'dark' ||
+        (colorPref.matches &&
+          !localStorage.getItem('color-mode'))
+      ) {
+        document.documentElement.setAttribute('data-color-mode', 'dark')
+      }
+
+      const toggleColorBtns = document.querySelectorAll('.color-mode-toggle');
+
+      if (window.CSS && CSS.supports('color', 'var(--primary)')) {
+        const toggleColorMode = (e) => {
+          const currentMode = document.documentElement.getAttribute('data-color-mode');
+          const nextMode = currentMode === 'dark' ? 'light' : 'dark';
+
+          document.documentElement.setAttribute('data-color-mode', nextMode);
+
+          localStorage.setItem('color-mode', nextMode);
+        };
+
+        toggleColorBtns.forEach((btn) => {
+          btn.addEventListener('click', toggleColorMode);
+        });
+      } else {
+        toggleColorBtns.forEach((btn) => {
+          btn.style.display = 'none';
+        });
+      }
+    </script>
   </body>
 </html>

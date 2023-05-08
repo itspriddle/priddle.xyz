@@ -74,7 +74,7 @@
 }
 
 // Tomorrow Night
-@media (prefers-color-scheme: dark) {
+:root[data-color-mode="dark"] {
   .highlight {
     --code-color-bg: #1d1f21;
     color: #c5c8c6;
