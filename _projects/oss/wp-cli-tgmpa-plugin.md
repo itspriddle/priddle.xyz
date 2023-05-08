@@ -10,10 +10,10 @@ tags:
   - Wordpress
   - WP-CLI
 project_type: oss
+excerpt: |
+  wp-cli-tgmpa-plugin is a WP-CLI package for working with WordPress
+  plugins required using the TGM Plugin Activation library.
 ---
-
-wp-cli-tgmpa-plugin is a [WP-CLI][] package for working with WordPress plugins
-required using the [TGM Plugin Activation][] library.
 
 This WP-CLI package provides the `wp tgmpa-plugin` command for working with
 plugins required using the [TGM Plugin Activation][] library.
