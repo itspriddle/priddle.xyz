@@ -94,14 +94,32 @@
       const toggleColorBtns = document.querySelectorAll('.color-mode-toggle');
 
       if (window.CSS && CSS.supports('color', 'var(--primary)')) {
+        const setColorMode = (mode) => {
+          document.documentElement.setAttribute('data-color-mode', mode);
+
+          localStorage.setItem('color-mode', mode);
+        };
+
         const toggleColorMode = (e) => {
           const currentMode = document.documentElement.getAttribute('data-color-mode');
           const nextMode = currentMode === 'dark' ? 'light' : 'dark';
-
-          document.documentElement.setAttribute('data-color-mode', nextMode);
-
-          localStorage.setItem('color-mode', nextMode);
+          setColorMode(nextMode);
         };
+
+        const colorSchemeHotKeys = (e) => {
+          // ctrl-i to toggle
+          if (e.ctrlKey && e.which == 73) {
+            const invertColorSchemeValue = document.documentElement.getAttribute('data-color-mode') === "dark" ? "light" : "dark";
+            setColorMode(invertColorSchemeValue);
+          }
+
+          // ctrl-shift-i to set to auto
+          //if (e.ctrlKey && e.shiftKey && e.which == 73) {
+          //  setColorMode();
+          //}
+        }
+
+        document.addEventListener("keyup", colorSchemeHotKeys, false);
 
         toggleColorBtns.forEach((btn) => {
           btn.addEventListener('click', toggleColorMode);
@@ -111,6 +129,7 @@
           btn.style.display = 'none';
         });
       }
+
     </script>
   </body>
 </html>
