@@ -1,6 +1,7 @@
 # Site settings
 title: priddle.xyz
 description: Josh Priddle
+port: 4001
 
 author:
   name: Josh Priddle
