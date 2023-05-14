@@ -69,66 +69,69 @@
     </footer>
 
     <script>
-      const colorPref = window.matchMedia('(prefers-color-scheme: dark)');
-
-      colorPref.addEventListener("change", (e) => {
-        if (localStorage.getItem('color-mode')) {
-          return;
-        }
-
-        if (e.matches) {
-          document.documentElement.setAttribute('data-color-mode', 'dark')
-        } else {
-          document.documentElement.setAttribute('data-color-mode', 'light')
-        }
-      });
-
-      if (
-        localStorage.getItem('color-mode') === 'dark' ||
-        (colorPref.matches &&
-          !localStorage.getItem('color-mode'))
-      ) {
-        document.documentElement.setAttribute('data-color-mode', 'dark')
-      }
-
-      const toggleColorBtns = document.querySelectorAll('.color-mode-toggle');
-
-      if (window.CSS && CSS.supports('color', 'var(--primary)')) {
-        const setColorMode = (mode) => {
+      const ColorScheme = {
+        currentMode: () => {
+          return document.documentElement.getAttribute('data-color-mode');
+        },
+        userPrefersDark: () => {
+          return window.matchMedia('(prefers-color-scheme: dark)');
+        },
+        setMode: (mode) => {
           document.documentElement.setAttribute('data-color-mode', mode);
 
           localStorage.setItem('color-mode', mode);
-        };
-
-        const toggleColorMode = (e) => {
-          const currentMode = document.documentElement.getAttribute('data-color-mode');
+        },
+        toggleMode: () => {
+          const currentMode = ColorScheme.currentMode();
           const nextMode = currentMode === 'dark' ? 'light' : 'dark';
-          setColorMode(nextMode);
-        };
-
-        const colorSchemeHotKeys = (e) => {
+          ColorScheme.setMode(nextMode);
+        },
+        hotkeyHandler: (e) => {
           // ctrl-i to toggle
           if (e.ctrlKey && e.which == 73) {
-            const invertColorSchemeValue = document.documentElement.getAttribute('data-color-mode') === "dark" ? "light" : "dark";
-            setColorMode(invertColorSchemeValue);
+            ColorScheme.toggleMode();
           }
 
           // ctrl-shift-i to set to auto
           //if (e.ctrlKey && e.shiftKey && e.which == 73) {
-          //  setColorMode();
+          //  ColorScheme.setMode();
           //}
+        },
+        toggleColorBtns: () => {
+          return document.querySelectorAll('.color-mode-toggle');
+        },
+        init: () => {
+          if (
+            localStorage.getItem('color-mode') === 'dark' ||
+            (ColorScheme.userPrefersDark().matches &&
+              !localStorage.getItem('color-mode'))
+          ) {
+            ColorScheme.setMode('dark');
+          } else {
+            ColorScheme.setMode('light');
+          }
+
+          ColorScheme.userPrefersDark().addEventListener("change", (e) => {
+            if (localStorage.getItem('color-mode')) {
+              return;
+            }
+
+            if (e.matches) {
+              ColorScheme.setMode('dark');
+            } else {
+              ColorScheme.setMode('light');
+            }
+          });
+
+          document.addEventListener("keyup", ColorScheme.hotkeyHandler, false);
+
+          ColorScheme.toggleColorBtns().forEach((btn) => {
+            btn.addEventListener("click", ColorScheme.toggleMode, false);
+          });
         }
+      };
 
-        document.addEventListener("keyup", colorSchemeHotKeys, false);
-
-        toggleColorBtns.forEach((btn) => {
-          btn.addEventListener('click', toggleColorMode);
-        });
-      } else {
-        toggleColorBtns.forEach((btn) => {
-          btn.style.display = 'none';
-        });
-      }
+      ColorScheme.init();
 
     </script>
   </body>
