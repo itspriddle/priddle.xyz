@@ -1,7 +1,7 @@
 {%- assign page_url = page.url | remove_first: "index.html" | absolute_url -%}
 {%- assign current_page = page.url | remove_first: "index.html" | relative_url -%}
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}" data-color-mode="light">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" data-color-mode="light" data-env="{{ jekyll.environment }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
