@@ -21,19 +21,19 @@
   <div class="{{ project_classes }}" data-company="{{ company_id }}">
     <h2 id="{{ project.title | slugify }}">
       {% if plain_excerpt == plain_content %}
-        {{ project.title }}
+        {{ project.title | smartify }}
       {% else %}
-        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+        <a href="{{ project.url | relative_url }}">{{ project.title | smartify }}</a>
       {% endif %}
     </h2>
 
     {% if project.project_type == "work" and project.company %}
-      <p>{{ project.company }} ({{ project.period }})</p>
+      <p class="post-meta">{{ project.company }} ({{ project.date | date: "%b %Y" }})</p>
     {% endif %}
 
     {{ project.excerpt | markdownify }}
 
-    <p>Tags: {{ project.tags | sort | join: ", " }}</p>
+    <p>Tags: {{ project.tags | sort | join: ", " | smartify }}</p>
 
     {% if project.github %}
       <p><a href="{{ project.github }}">View on GitHub &rarr;</a></p>
