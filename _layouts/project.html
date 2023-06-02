@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | smartify }}</h1>
+    <p class="post-meta">
+      {% if page.project_type == "work" and page.company %}
+        {{ page.company }} ({{ page.date | date: "%b %Y" }})
+      {% else %}
+        {{ page.date | date: "%b %Y" }}
+      {% endif %}
+
+      {% if page.github %}
+        • <a href="{{ page.github }}">View on GitHub</a>
+      {% endif %}
+    </p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+
+    <hr>
+    <p>Tags: {{ page.tags | sort | join: ", " | smartify }}</p>
+  </div>
+</article>

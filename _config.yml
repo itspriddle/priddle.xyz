@@ -54,12 +54,12 @@ defaults:
       path: "_projects/*"
       type: "projects"
     values:
-      layout: "page"
+      layout: "project"
       permalink: /work/:name/
   -
     scope:
       path: "_projects/oss/*"
       type: "projects"
     values:
-      layout: "page"
+      layout: "project"
       permalink: /oss/:name/
