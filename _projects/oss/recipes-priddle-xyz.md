@@ -39,7 +39,7 @@ While I really liked the cards, I knew this thing needed a website, and
 First, I came up with a simple format to contain all of my recipes in
 Markdown:
 
-```md
+```markdown
 # Title
 
 ## Ingredients
