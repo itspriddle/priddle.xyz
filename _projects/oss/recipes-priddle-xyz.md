@@ -84,7 +84,7 @@ I had a lot of fun hacking on this one!
 
 [1]: https://recipes.priddle.xyz
 [2]: https://github.com/itspriddle/recipes.priddle.xyz
-[3]: https://recipes.priddle.xyz/recipes/Vincenzos%20Marinara%20Sauce.html
-[4]: https://recipes.priddle.xyz/recipes/Vincenzos%20Marinara%20Sauce.pdf
-[5]: https://recipes.priddle.xyz/recipes/Vincenzos%20Marinara%20Sauce.txt
+[3]: https://recipes.priddle.xyz/recipes/vincenzos-marinara-sauce.html
+[4]: https://recipes.priddle.xyz/recipes/vincenzos-marinara-sauce.pdf
+[5]: https://recipes.priddle.xyz/recipes/vincenzos-marinara-sauce.txt
 [6]: https://github.com/prawnpdf/prawn
